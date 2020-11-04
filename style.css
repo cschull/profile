@@ -1,6 +1,5 @@
 body {
   background-color: #F8FAFD;
-
 }
 
 #profile-pic {
@@ -16,22 +15,28 @@ body {
 .box {
   background-color: #dfe7fd;
   border-radius: 10px;
-  margin: 20px 100px;
-  padding: 20px;
+  width: 80%;
+  margin: 20px 10px;
+  padding: 4% 10%;
   text-align: center;
   border: 2px solid white;
   box-shadow: 0 10px 10px rgba(0,0,0,0.08);
 }
 
 #heading {
-  margin: 0px 300px;
+  margin: 0 auto;
   padding: 20px;
   border: 2px solid white;
-  background-color: dfe7fd;
+  background-color: #dfe7fd;
+  text-align: center;
+  width: 50%;
+  min-width: 400px;
 }
 
 .container {
-  align-content: center;
+  text-align: center;
+  background-color: #F8FAFD;
+  padding: 20px 100px;
 }
 
 h1 {
@@ -42,6 +47,7 @@ h1 {
 h3, p{
   font-family: 'Noto Sans JP', sans-serif;
   color: #023e8a;
+  font-weight: 4px;
 }
 
 .fab {
@@ -78,4 +84,23 @@ h3, p{
 
 .icons {
   padding: 0px;
+}
+
+@media (max-width: 1000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 920px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 800px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
 }
