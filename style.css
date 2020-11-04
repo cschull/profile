@@ -81,11 +81,9 @@ h3, p{
   margin: 0px;
   padding: 8px;
 }
-
 .icons {
   padding: 0px;
 }
-
 @media (max-width: 1000px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
